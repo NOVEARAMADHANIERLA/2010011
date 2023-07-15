@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2010011</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Keranjang</string>
+    <string name="title_notifications">Akun</string>
+    <string name="title_activity_akun">AkunActivity</string>
+    <string name="title_activity_akses">AksesActivity</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AksesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="950sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-5dp"
+        android:background="#F28080">
+
+    <TextView
+        android:id="@+id/tvjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata Diri"
+        android:layout_marginTop="200sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvjudul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama  : Novea Ramadhani Erla"
+        android:layout_below="@id/tvjudul"
+        android:layout_marginTop="50sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvjudul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Bp  : 2010011"
+        android:layout_below="@id/tvjudul1"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_account_circle_24"
+        android:layout_below="@id/tvjudul"
+        android:layout_marginTop="10sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BINDING!!"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/tvjudul2"
+        android:layout_marginLeft="35sp"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
